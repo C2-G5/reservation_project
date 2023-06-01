@@ -298,3 +298,4 @@ PICK YOUR HOTEL RIGHT NOW
 }
 
 export default HotelsProvider
+

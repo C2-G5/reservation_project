@@ -26,7 +26,6 @@ function App() {
           <Route path="/hoteldetails" element={<HotelDetails />} />
           {/* <Route path="/payment" element={<Payment />} /> */}
         </Routes>
-
         <Footer />
       </BrowserRouter>
     </>
