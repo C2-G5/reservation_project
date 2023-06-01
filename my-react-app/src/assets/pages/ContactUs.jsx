@@ -1,7 +1,13 @@
-import React from "react";
+import FormContact from "../components/Contact/FormContact";
+import HeroContact from "../components/Contact/HeroContact";
+// import TypeofContact from "../components/Contact/TypeofContact";
 
-const ContactUs = () => {
-  return <div>ContactUs</div>;
-};
-
-export default ContactUs;
+export default function ContactUs() {
+  return (
+    <>
+      <HeroContact />
+      {/* <TypeofContact/> */}
+      <FormContact />
+    </>
+  );
+}
