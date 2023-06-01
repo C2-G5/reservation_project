@@ -17,5 +17,5 @@ export default {
       blue: "#89a7b5",
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography'),require("daisyui")],
 };

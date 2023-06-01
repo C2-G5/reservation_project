@@ -9,7 +9,7 @@ import DropdownNav from "../components/home/DropdownNav";
 const Home = () => {
   return (
     <>
-      <div style={{ position: "relative" }}>
+     <div style={{ position: "relative" }}>
         <HeroSection />
       </div>
       <SearchBar />
